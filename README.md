@@ -16,8 +16,13 @@ This folder contains the data used for training the models. For this, a subsampl
 
 #### models 
 
-- #####
+- ##### bert-classifier.ipynb
+  Code to train and evaluate a BERT classifier.
+- ##### joint-embeddings-classifier-1500.ipynb
+  Code to train and evaluate a MLP using joint embeddings.
+- #### visual-features-classifiert.ipynb
+  Code to train and evaluate a MLP using visual embeddings.
 
 
 #### wilcoxon_signed_rank_test
-This folder contains a .csv file with accuracy scores obtained after training all models on 10 different random seeds and a notebook to perform statistical significance testing between the multimodal model and the baselines (only visual and only textual features)
+This folder contains a .csv file with accuracy scores obtained after training all models on 10 different random seeds and a notebook to perform statistical significance testing between the multimodal model and the baselines (only visual and only textual features).
