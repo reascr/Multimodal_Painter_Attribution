@@ -16,4 +16,8 @@ This folder contains the data used for training the models. For this, a subsampl
 
 #### models 
 
-- ##### 
+- #####
+
+
+#### wilcoxon_signed_rank_test
+This folder contains a .csv file with accuracy scores obtained after training all models on 10 different random seeds and a notebook to perform statistical significance testing between the multimodal model and the baselines (only visual and only textual features)
