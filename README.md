@@ -9,9 +9,9 @@ This folder contains the data used for training the models. For this, a subsampl
 
 - ##### Data_Pipeline.ipynb:
   Code to invesitgate, clean, and balance data set.
-- ##### Get_ImageLIsts.ipynb
+- ##### Get_ImageLIsts.ipynb:
   Code to obtain ImageLists needed for Detectron2.
-- ##### Get_Visual_and_Joint_Features.ipynb
+- ##### Get_Visual_and_Joint_Features.ipynb:
   Code to obtain visual features by Detectron 2 to pass VisualBERT and to obtain joint visual-textual feature representations by extracting the last hidden layer of VisualBERT.
 
 #### models 
