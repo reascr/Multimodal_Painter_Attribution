@@ -1,6 +1,6 @@
 ### Multimodal Painter Attribution: Integrating Visual and Textual Features for Improved Classification Performance 
 
-This repo contains code and data used for the final project in the class "Computational Cognitive Science II" for the MSc in IT and Cognition and the University of Copenhagen. 
+This repo contains code and data used for the final project in the class "Computational Cognitive Science II" for the MSc in IT and Cognition at the University of Copenhagen. 
 
 #### data
 This folder contains the data used for training the models. For this, a subsample of the SemArt data set was used (https://researchdata.aston.ac.uk/id/eprint/380/), including images and metadata (descriptions of the paintings, painter, title, timeframe, school, and type). Contains the original data subsample as well as the cleaned and balanced data sets used for training.
