@@ -20,7 +20,7 @@ This folder contains the data used for training the models. For this, a subsampl
   Code to train and evaluate a BERT classifier on the whole balanced data set.
 - ##### joint-embeddings-classifier-1500.ipynb
   Code to train and evaluate a MLP using joint embeddings on 1500 data points.
-- #### visual-features-classifiert.ipynb
+- ##### visual-features-classifiert.ipynb
   Code to train and evaluate a MLP using visual embeddings on the whole balanced data set.
 
   For all models notebooks to train them on 10 different random seeds and store the results in a .csv file are provided. 
