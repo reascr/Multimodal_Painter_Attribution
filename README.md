@@ -3,7 +3,7 @@
 This repo contains code and data used for the final project in the class "Computational Cognitive Science II" for the MSc in IT and Cognition at the University of Copenhagen. 
 
 #### data
-This folder contains the data used for training the models. For this, a subsample of the SemArt data set was used (https://researchdata.aston.ac.uk/id/eprint/380/), including images and metadata (descriptions of the paintings, painter, title, timeframe, school, and type). Contains the original data subsample as well as the cleaned and balanced data sets used for training.
+This folder contains the data used for training the models. For this, a subsample of the SemArt data set was used (https://researchdata.aston.ac.uk/id/eprint/380/), including images and metadata (descriptions of the paintings, painter, title, timeframe, school, and type). The folder contains the original data subsample as well as the cleaned and balanced data sets used for training.
 
 #### data_preprocessing
 
@@ -20,9 +20,11 @@ This folder contains the data used for training the models. For this, a subsampl
   Code to train and evaluate a BERT classifier on the whole balanced data set.
 - ##### joint-embeddings-classifier-1500.ipynb
   Code to train and evaluate a MLP using joint embeddings on 1500 data points.
-- #### visual-features-classifiert.ipynb
+- ##### visual-features-classifiert.ipynb
   Code to train and evaluate a MLP using visual embeddings on the whole balanced data set.
+
+  For all models notebooks to train them on 10 different random seeds and store the results in a .csv file are provided. 
 
 
 #### wilcoxon_signed_rank_test
-This folder contains a .csv file with accuracy scores obtained after training all models on 10 different random seeds and a notebook to perform statistical significance testing between the multimodal model and the baselines (only visual and only textual features).
+This folder contains .csv files with accuracy scores obtained after training all models on 10 different random seeds and a notebook to perform statistical significance testing between the multimodal model and the baselines (only visual and only textual features). 
