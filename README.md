@@ -8,7 +8,7 @@ This folder contains the data used for training the models. For this, a subsampl
 #### data_preprocessing
 
 - ##### Data_Pipeline.ipynb:
-  Code to invesitgate, clean, and balance the data set.
+  Code to investigate, clean, and balance the data set.
 - ##### Get_ImageLIsts.ipynb:
   Code to obtain ImageLists required by Detectron2.
 - ##### Get_Visual_and_Joint_Features.ipynb:
